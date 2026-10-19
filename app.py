@@ -8,7 +8,7 @@ import plotly.express as px
 import streamlit as st
 from sklearn.metrics import average_precision_score, roc_auc_score
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
 DEFAULT_PRED = "artifacts/modeling/test_predictions_best_model.csv"
 st.set_page_config(page_title="City Hotel Lisbon - Cancellation Risk", layout="wide")
 

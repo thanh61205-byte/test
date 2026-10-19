@@ -1,0 +1,2 @@
+model,threshold_frozen_from_validation,test_rows,test_event_rate_baseline,test_pr_auc,test_roc_auc,test_brier,test_brier_uncalibrated,calibration,precision,recall,f1,tn,fp,fn,tp,alert_share,alerts_in_cohort,queue_per_1000
+logistic_regression,0.23492751109961488,20399,0.34374234031079953,0.5288573798720424,0.7203814472759692,0.20593580237805822,0.19519610030282172,sigmoid,0.4520850187541369,0.8766400456360525,0.5965354942015624,5937,7450,865,6147,0.6665522819746066,13597,666.5522819746066
